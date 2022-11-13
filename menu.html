@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Fashion Website Design Tutorial</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-shopping-cart"></i> shop </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#products">products</a>
+        <a href="#buy">buy</a>
+        <a href="#rents">rents</a>
+        <a href="#agents">agents</a>
+        <a href="#contact">contact</a>
+
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-heart"></a>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" name="" placeholder="search here..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide" style="background:url(image/home-bg\ -\ Copy.jpg    ) no-repeat">
+                <div class="content">
+                    <span>5% off</span>
+                    <h3>Find Your Dream House</h3>
+                    <a href="#" class="btn">Check now</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background:url(image/rrban.webp) no-repeat">
+                <div class="content">
+                    <span> 8% off</span>
+                    <h3>Find Your Dream House</h3>
+                    <a href="#" class="btn">Check now</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background:url(image/rban3.webp) no-repeat">
+                <div class="content">
+                    <span>10% off</span>
+                    <h3>Find Your Dream House</h3>
+                    <a href="#" class="btn">Check now</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+
+<section class="products" id="products">
+
+    <h1 class="heading"> exclusive <span>products</span> </h1>
+
+    <div class="filter-buttons">
+        <div class="buttons active" data-filter="all">all</div>
+        <div class="buttons" data-filter="arrivals">new arrivals</div>
+        <div class="buttons" data-filter="featured">featured</div>
+        <div class="buttons" data-filter="special">special </div>
+        <div class="buttons" data-filter="seller">olds</div>
+    </div>
+
+    <div class="box-container">
+
+        <div class="box" data-item="featured">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/img-2 - Copy.jpg" alt="">
+            </div>
+            <div class="content">
+                    <h3>1Living room, 2bedroomm, 3bathroom</h3>
+                    <div class="price">
+                        <div class="amount">$24000.00</div>
+                        <div class="cut">$25000.00</div>
+                        <div class="offer">0.02% off</div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(21)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="special">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/img-1 - Copy.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>1Living room, 2bedroomm, 2bathroom</h3>
+                <div class="price">
+                    <div class="amount">$30000.00</div>
+                    <div class="cut">$35200.00</div>
+                    <div class="offer">0.02% </div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(40)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="seller">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/img-3 - Copy.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>1Living room, 3bedroomm, 3bathroom</h3>
+                <div class="price">
+                    <div class="amount">$16000.00</div>
+                    <div class="cut">$22000.00</div>
+                    <div class="offer">0.02% </div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(50)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="arrivals">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/img-4.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>1Living room, 2bedroomm, 3bathroom</h3>
+                <div class="price">
+                    <div class="amount">$32000.00</div>
+                    <div class="cut">$41005.00</div>
+                    <div class="offer">0.02% </div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(19)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="featured">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/img-5.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>1Living room, 3bedroomm, 3bathroom</h3>
+                <div class="price">
+                    <div class="amount">$31000.00</div>
+                    <div class="cut">$32000.00</div>
+                    <div class="offer">0.02% </div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(32)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="arrivals">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/img7.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3> 2bedroomm, 2bathroom</h3>
+                <div class="price">
+                    <div class="amount">$23000.00</div>
+                    <div class="cut">$25000.00</div>
+                    <div class="offer">0.02% </div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(32)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="special">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/img-6.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>1Living room, 3bedroomm, 3bathroom</h3>
+                <div class="price">
+                    <div class="amount">$21000.00</div>
+                    <div class="cut">$22000.00</div>
+                    <div class="offer">0.02% </div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(30)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="seller">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/img8.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>1Living room, 2bedroomm, 4bathroom</h3>
+                <div class="price">
+                    <div class="amount">$29000.00</div>
+                    <div class="cut">$31000.00</div>
+                    <div class="offer">0.02% </div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(21)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="seller">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/img10.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>1Living room, 4bedroomm, 3bathroom</h3>
+                <div class="price">
+                    <div class="amount">$21000.00</div>
+                    <div class="cut">$25000.00</div>
+                    <div class="offer">0.02% </div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(50)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="featured">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/img11.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>1Living room, 2bedroomm, 3bathroom</h3>
+                <div class="price">
+                    <div class="amount">$17000.00</div>
+                    <div class="cut">$20000.00</div>
+                    <div class="offer">0.02% </div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(50)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="special">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/img12.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>1Living room, 6bedroomm, 7bathroom</h3>
+                <div class="price">
+                    <div class="amount">$32000.00</div>
+                    <div class="cut">$35000.00</div>
+                    <div class="offer">0.02% </div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(50)</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-item="seller">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="image/img13.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>1Living room, 3bedroomm, 3bathroom</h3>
+                <div class="price">
+                    <div class="amount">$20000.00</div>
+                    <div class="cut">$21000.00</div>
+                    <div class="offer">0.02% </div>
+                </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <span>(50)</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
